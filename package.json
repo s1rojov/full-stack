@@ -2,5 +2,11 @@
   "name": "full-stack",
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "scripts": {
+    "format": "prettier --ignore-unknown --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
